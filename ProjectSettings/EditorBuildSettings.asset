@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1.Scenes/Scene_Title.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/1.Scenes/Scene_GameLobby.unity
+    guid: 0975255b84dde9b429addb898a60ca39
+  - enabled: 0
+    path: Assets/1.Scenes/Scene_GameField.unity
+    guid: ed4ba6b153e99034b92cc703ec9ae5f8
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: c511566328b001a49a02e4c383c02622, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

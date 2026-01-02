@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Gun_Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Gun_Prefabs
+  m_GUID: 822a039ad16f7bd4bb6bf6c2b9858a23
+  m_SerializeEntries:
+  - m_GUID: dd79ea10d331ed546afa5fdc6f628e8c
+    m_Address: Assets/4.Prefabs/Guns
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: efa8e27844099964ca072d0ccf74f013, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2cff258038065dc478dec1c46512673b, type: 2}
+    - {fileID: 11400000, guid: 1d91e1ed11e796f4aa2ba87c56e15773, type: 2}

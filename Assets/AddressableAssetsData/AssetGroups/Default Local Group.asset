@@ -15,8 +15,33 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: e270df6c9976d4845891a68aaef66c03
   m_SerializeEntries:
+  - m_GUID: 0975255b84dde9b429addb898a60ca39
+    m_Address: Assets/1.Scenes/Scene_GameLobby.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12ef9c81ab3d4c043b7173c712db598b
+    m_Address: Assets/8.Texture/Loading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a19d2da931e9a7946baefbab93b19e76
     m_Address: Assets/6.Meshes/Guns/Pistol 2.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd5a758e9e413a547aa829bd1b217958
+    m_Address: Assets/1.Scenes/Scene_Loading.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed4ba6b153e99034b92cc703ec9ae5f8
+    m_Address: Assets/1.Scenes/Scene_GameField.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f15a1ed1f46c6514fa882ff888b978a8
+    m_Address: Assets/1.Scenes/Scene_MainMenu.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
