@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1266c85590680c14c9a7c6902cca5284
+    m_Address: Assets/8.Texture/Loading/UI_Window.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 12ef9c81ab3d4c043b7173c712db598b
     m_Address: Assets/8.Texture/Loading
     m_ReadOnly: 0
@@ -27,6 +32,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a19d2da931e9a7946baefbab93b19e76
     m_Address: Assets/6.Meshes/Guns/Pistol 2.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9d5381eae157cd40b83f2a6ee99c62a
+    m_Address: Assets/8.Texture/Loading/MainMenu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c989efe1a785f434c9c938708d7b8286
+    m_Address: Assets/4.Prefabs/Popups
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

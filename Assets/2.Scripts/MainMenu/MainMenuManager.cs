@@ -17,11 +17,6 @@ public class MainMenuManager : SingletonGameobject<MainMenuManager>
         LoadingSystem._onSceneLoadCompleted += OnLoadMainMenuSceneCompleted;
     }
 
-    void Update()
-    {
-        
-    }
-
     void OnDestroy()
     {
         LoadingSystem._onSceneLoadCompleted -= OnLoadMainMenuSceneCompleted;
