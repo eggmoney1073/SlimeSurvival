@@ -10,7 +10,7 @@ public class ObjectPool<T>
     int _count;
     Func<T> _createFunc;
 
-    public int _Count { get { return _pool.Count; } }
+    public int Count { get { return _pool.Count; } }
 
     public ObjectPool() { }
 

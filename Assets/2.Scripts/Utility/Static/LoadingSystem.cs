@@ -28,7 +28,7 @@ public class LoadingSystem
     /// <summary>
     /// ·Îµù ÁøÇà·ü
     /// </summary>
-    public static float _LoadingProcess 
+    public static float LoadingProcess 
     { get 
         {
             if (_sceneLoadHandle.IsValid())
@@ -100,7 +100,7 @@ public class LoadingSystem
 
         string sceneAddress = _sceneBaseAddress + sceneName.ToString() + ".unity";
 
-        LoadingSceneManager._Instance.ShowUI(_onSceneLoadCompleted);
+        LoadingSceneManager.Instance.ShowUI(_onSceneLoadCompleted);
         _sceneLoadHandle = Addressables.LoadSceneAsync(sceneAddress, LoadSceneMode.Additive);
         
 

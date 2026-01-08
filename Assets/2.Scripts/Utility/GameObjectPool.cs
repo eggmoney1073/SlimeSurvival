@@ -9,7 +9,7 @@ public class GameObjectPool<T> where T : Component
     int _count;
     Func<T> _createFunc;
 
-    public int _Count {  get { return _pool.Count; } }
+    public int Count {  get { return _pool.Count; } }
 
     public GameObjectPool() { }
 

@@ -37,7 +37,7 @@ public class InventoryInteractionFieldController : MonoBehaviour
         _rectTransfrom = GetComponent<RectTransform>();
         _mainCam = Camera.main;
 
-        InputManager._Instance._onMousePositionChanged_Vector2 += SetScreenPosition;
+        //InputManager._Instance._onMousePositionChanged_Vector2 += SetScreenPosition;
     }
 
     void Update()
@@ -47,6 +47,6 @@ public class InventoryInteractionFieldController : MonoBehaviour
 
     void OnDestroy()
     {
-        InputManager._Instance._onMousePositionChanged_Vector2 -= SetScreenPosition;
+        //InputManager._Instance._onMousePositionChanged_Vector2 -= SetScreenPosition;
     }
 }

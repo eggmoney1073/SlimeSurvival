@@ -28,7 +28,7 @@ public class Rifle_Behaviour : MonoBehaviour, IGunBehaviour
                 remainLifeTime = _gunData._range / _gunData._bulletSpeed
             };
 
-            BulletManager._Instance.ShootBullet(bulletData);
+            BulletManager.Instance.ShootBullet(bulletData);
             _camFire = false;
             StartCoroutine(Co_CheckNextFireTime(1 / _gunData._shootRate));
         }

@@ -24,11 +24,11 @@ public class TouchEffectManager : MonoBehaviour
             return effectController;
         });
 
-        InputManager._Instance._mouseLeftClickStarted_Vector2 += EffectAppear;
+        //InputManager._Instance._mouseLeftClickStarted_Vector2 += EffectAppear;
     }
 
     void OnDestroy()
     {
-        InputManager._Instance._mouseLeftClickStarted_Vector2 -= EffectAppear;
+        //InputManager._Instance._mouseLeftClickStarted_Vector2 -= EffectAppear;
     }
 }

@@ -78,8 +78,8 @@ public class PlayerController : MonoBehaviour
         _characterModelGO = transform.GetChild(0).gameObject;
         _gunGO = _characterModelGO.transform.GetChild(2).gameObject;
 
-        AimManager._Instance._onPointedGroundChanged_Vector3 += SetPlayerDirection;
-        InputManager._Instance._onMoveInput_Vector2 += SetPlayerMovePosition;
+        AimManager.Instance._onPointedGroundChanged_Vector3 += SetPlayerDirection;
+        //InputManager._Instance._onMoveInput_Vector2 += SetPlayerMovePosition;
     }
 
 
@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
 
     void OnDestroy()
     {
-        AimManager._Instance._onPointedGroundChanged_Vector3 -= SetPlayerDirection;
-        InputManager._Instance._onMoveInput_Vector2 -= SetPlayerMovePosition;
+        AimManager.Instance._onPointedGroundChanged_Vector3 -= SetPlayerDirection;
+        //InputManager._Instance._onMoveInput_Vector2 -= SetPlayerMovePosition;
     }
 }

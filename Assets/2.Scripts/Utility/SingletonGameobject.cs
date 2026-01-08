@@ -6,7 +6,7 @@ public class SingletonGameobject<T> : MonoBehaviour where T : MonoBehaviour
 {
     static T _uniqueInstance;
 
-    public static T _Instance
+    public static T Instance
     {
         get
         {

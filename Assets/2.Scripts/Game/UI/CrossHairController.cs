@@ -6,7 +6,7 @@ public class CrossHairController : MonoBehaviour
 
     SubCrossHairController _subCrossHair;
 
-    public SubCrossHairController _SubCrossHair { get { return _subCrossHair; } }
+    public SubCrossHairController SubCrossHair { get { return _subCrossHair; } }
 
     void Awake()
     {
@@ -20,6 +20,6 @@ public class CrossHairController : MonoBehaviour
 
     void Update()
     {
-        _rectTransform.anchoredPosition = InputManager._Instance._MousePosition;
+        //_rectTransform.anchoredPosition = InputManager._Instance._MousePosition;
     }
 }

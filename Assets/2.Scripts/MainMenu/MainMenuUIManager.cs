@@ -5,7 +5,7 @@ public class MainMenuUIManager : MonoBehaviour
 {
     public void Button_Start()
     {
-        MainMenuManager._Instance.GoToNextScene();
+        MainMenuManager.Instance.GoToNextScene();
     }
 
     public void Button_Options()

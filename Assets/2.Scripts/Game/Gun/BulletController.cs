@@ -9,7 +9,7 @@ public class BulletController : MonoBehaviour
     BulletManager.BulletData _bulletData;
     TrailRenderer _bulletTrail;
 
-    public BulletManager.BulletData _BulletData { set { _bulletData = value; } }
+    public BulletManager.BulletData BulletData { set { _bulletData = value; } }
 
     public void ShootBullet(BulletManager.BulletData data)
     {
@@ -22,7 +22,7 @@ public class BulletController : MonoBehaviour
     /// </summary>
     void BulletDestroy()
     {
-        BulletManager._Instance.ReturnBullet(this);
+        BulletManager.Instance.ReturnBullet(this);
         _bulletTrail.Clear();
         _isAlive = false;
         gameObject.SetActive(false);

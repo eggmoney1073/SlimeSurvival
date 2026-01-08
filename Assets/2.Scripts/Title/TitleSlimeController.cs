@@ -56,6 +56,6 @@ public class TitleSlimeController : MonoBehaviour
 
     void OnDestroy()
     {
-        InputManager._Instance._mouseLeftClickStarted_Vector2 -= SetSlimeLookPosition;
+        //InputManager._Instance._mouseLeftClickStarted_Vector2 -= SetSlimeLookPosition;
     }
 }

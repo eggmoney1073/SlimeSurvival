@@ -73,9 +73,9 @@ public class LoadingSceneManager : SingletonGameobject<LoadingSceneManager>
 
     IEnumerator Co_SetLoadingBar()
     {
-        while(LoadingSystem._LoadingProcess > 0.0001f && LoadingSystem._LoadingProcess < 0.999f)
+        while(LoadingSystem.LoadingProcess > 0.0001f && LoadingSystem.LoadingProcess < 0.999f)
         {
-            _loadingBar.value = LoadingSystem._LoadingProcess;
+            _loadingBar.value = LoadingSystem.LoadingProcess;
             yield return null;
         }
         _loadingBar.value = 1f;

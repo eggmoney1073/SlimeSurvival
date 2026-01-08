@@ -13,7 +13,7 @@ public class LoadingTest : MonoBehaviour
     {
         if (GUI.Button(new Rect(10, 10, 150, 50), "Load Lobby Scene"))
         {
-            MainMenuManager._Instance.GoToNextScene();
+            MainMenuManager.Instance.GoToNextScene();
         }
 
         if (GUI.Button(new Rect(10, 70, 150, 50), "Initialize Addressables"))

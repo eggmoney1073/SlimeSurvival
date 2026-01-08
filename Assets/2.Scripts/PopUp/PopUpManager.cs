@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PopUpManager : SingletonDontDestroyOnLoad<PopUpManager>
 {
-    Stack<PopUpBase> _popUpQueue = new Stack<PopUpBase>();
+    Stack<PopUpBase> _activePopUpStack = new Stack<PopUpBase>();
 
     void Start()
     {

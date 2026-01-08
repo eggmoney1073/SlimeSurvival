@@ -93,7 +93,7 @@ public class GunController : MonoBehaviour
         _currentGunDatas = new GunDataBase[2];
         _isGunEquips = new bool[2];
 
-        AimManager._Instance._onPointedGroundChanged_Vector3 += SetGunDirection;
+        AimManager.Instance._onPointedGroundChanged_Vector3 += SetGunDirection;
 
         SetGuns();
     }
@@ -105,6 +105,6 @@ public class GunController : MonoBehaviour
 
     void OnDestroy()
     {
-        AimManager._Instance._onPointedGroundChanged_Vector3 -= SetGunDirection;
+        AimManager.Instance._onPointedGroundChanged_Vector3 -= SetGunDirection;
     }
 }

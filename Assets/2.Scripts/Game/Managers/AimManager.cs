@@ -11,7 +11,7 @@ public class AimManager : SingletonGameobject<AimManager>
     Camera _mainCam;
 
     Vector3 _aimPosition;
-    public Vector3 _AimPosition { get { return _aimPosition; } }
+    public Vector3 AimPosition { get { return _aimPosition; } }
 
     void SetAimPosition(Vector2 mousePosition)
     {
@@ -29,12 +29,12 @@ public class AimManager : SingletonGameobject<AimManager>
     void Start()
     {
         _mainCam = Camera.main;
-        InputManager._Instance._onMousePositionChanged_Vector2 += SetAimPosition;
+        //InputManager._Instance._onMousePositionChanged_Vector2 += SetAimPosition;
     }
 
     void OnDestroy()
     {
-        InputManager._Instance._onMousePositionChanged_Vector2 -= SetAimPosition;
+        //InputManager._Instance._onMousePositionChanged_Vector2 -= SetAimPosition;
 
     }
 }

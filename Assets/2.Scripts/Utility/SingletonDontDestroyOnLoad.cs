@@ -6,7 +6,7 @@ public class SingletonDontDestroyOnLoad<T> : MonoBehaviour where T : MonoBehavio
 {
     static T _uniqueInstance;
 
-    public static T _Instance
+    public static T Instance
     {
         get
         {
@@ -16,16 +16,20 @@ public class SingletonDontDestroyOnLoad<T> : MonoBehaviour where T : MonoBehavio
 
     protected virtual void Awake()
     {
-        if (_uniqueInstance != null)
+        T instance = GetComponent<T>();
+        if (_uniqueInstance != null && _uniqueInstance != instance)
         {
-            if (_uniqueInstance != this)
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
             return;
         }
 
-        _uniqueInstance = GetComponent<T>();
+        _uniqueInstance = instance;
         DontDestroyOnLoad(gameObject);
+        OnAwake();
+    }
+
+    protected virtual void OnAwake()
+    {
+
     }
 }
